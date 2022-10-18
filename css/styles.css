@@ -1,0 +1,134 @@
+html {
+	background-color: rgb(40, 40, 40);
+	font-family: Montserrat, sans-serif;
+//	display: block;
+}
+
+
+header {
+	background-color: rgb(86, 86, 86);
+	border-radius: 15px;
+	padding: 15px;
+	margin: 15px;
+	position: relative;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	flex: 0;
+}
+
+body {
+	background-color: rgb(40, 40, 40);
+	font-family: Montserrat, sans-serif;
+//	display: flex;
+//	flex-direction: column;
+}
+
+main {
+	margin: 0 auto;
+	display: flex;
+	flex-grow: 1;
+}
+
+@media screen and (max-width: 600px) {
+	main {
+		display: block;
+	}
+	
+	header {
+		display: flex;
+		flex-direction: column;
+		padding: 3px;
+	}
+}
+
+aside {
+	flex: 0;
+	flex-grow: 0.3;
+//	background-color: rgb(51, 51, 51);
+	border-radius: 15px;
+	padding: 15px;
+	margin: 15px;
+	align-items: center;
+	align-content: center;
+//	position: relative;
+	text-align: center;
+	color: rgb(206, 206, 206);
+//	display: block;
+}
+
+section {
+//	display: block;
+	flex: 0;
+	flex-grow: 0.7;
+}
+
+.menu-item {
+	color: rgb(255, 255, 255);
+	margin: 15px;
+	padding: 15px;
+	text-decoration-line: none;
+	font-weight: bolder;
+}
+
+.menu-item:hover {
+	color: rgb(197, 255, 168);
+	text-decoration-line: underline;
+}
+
+.about-box {
+	background-color: rgb(51, 51, 51);
+	border-radius: 15px;
+	padding: 15px;
+	margin: 15px;
+	padding-left: 30px;
+	align-items: center;
+	align-content: center;
+	position: relative;
+//	text-align: center;
+	color: rgb(206, 206, 206);
+	display: block;
+	flex: 0;
+}
+
+.title {
+	color: rgb(197, 255, 168);
+	font-size: 2em;
+	display: flex;
+}
+
+.subtitle {
+	color: rgb(197, 255, 168);
+	font-size: 1.5em;
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+
+.link {
+	color: rgb(197, 255, 168);
+}
+
+.link:hover {
+	color: rgb(206, 206, 206);
+}
+
+.main-img {
+	border-radius: 15px;
+	flex: 0 0 0;
+	width: 70%;
+	height: 50%;
+} 
+
+.icon-main-page {
+	width: 25px;
+	height: 25px;
+//	filter: invert(1000%) sepia(100%) saturate(0%) hue-rotate(125deg) brightness(108%) contrast(103%);
+	background-color: rgb(197, 255, 168);
+	border-radius: 10px;
+	padding: 5px;
+	margin-right: 10px;
+	display: flex;
+	flex: 0;
+	align-items: center;
+}
