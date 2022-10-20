@@ -25,7 +25,7 @@ body {
 }
 
 main {
-	margin: 0 auto;
+//	margin: 0 auto;
 	display: flex;
 	flex-grow: 1;
 }
@@ -116,8 +116,8 @@ section {
 .main-img {
 	border-radius: 15px;
 	flex: 0 0 0;
-	width: 70%;
-	height: 50%;
+//	width: 70%;
+//	height: 50%;
 } 
 
 .icon-main-page {
