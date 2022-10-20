@@ -1,0 +1,40 @@
+Index: test.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/test.html b/test.html
+new file mode 100644
+--- /dev/null	(date 1666261962990)
++++ b/test.html	(date 1666261962990)
+@@ -0,0 +1,10 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <title>Title</title>
++</head>
++<body>
++
++</body>
++</html>
+\ No newline at end of file
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html>\n<head>\n\t<meta charset=\"utf-8\">\t\n\t<link rel=\"stylesheet\" href=\"css/styles.css\">\n\t<title>Сайт-визитка</title>\n</head>\n<body>\n\t<header>\n\t\t<a class=\"menu-item\" href=\"#\">Главная</a><a class=\"menu-item\" href=\"#about\">Обо мне</a><a class=\"menu-item\" href=\"#hobby\">Хобби</a><a class=\"menu-item\" href=\"#contacts\">Контакты</a>\n\t</header>\n\t<main>\n\t\t<aside class=\"aside\">\n\t\t\t<img src=\"images/my-photo.jpg\" alt=\"Не моё фото, потому что я не хочу добавлять своё\" width=\"40%\" height=\"40%\" class=\"main-img\">\n\t\t\t<h1 class=\"title\">Олег Латышев. Веб-разработчик</h1>\n\t\t</aside>\n\t\t<section>\n\t\t\t<div class=\"about-box\">\n\t\t\t\t<h2 class=\"subtitle\" id=\"about\"><img src=\"/images/svg/person.svg\" alt=\"Разработчик\" class=\"icon-main-page\">Обо мне</h2>\n\t\t\t\t<p>Меня зовут Олег. Я начинаю изучать фронтэнд</p>\n\t\t\t</div>\n\t\t\t<div class=\"about-box\">\n\t\t\t\t<h2 class=\"subtitle\" id=\"edu\"><img src=\"/images/svg/edu.svg\" alt=\"Образование\" class=\"icon-main-page\">Образование</h2>\n\t\t\t\t<p>Окончил РТУ МИРЭА по специальности \"Государственное и муниципальное управление\"</p>\n\t\t\t</div>\n\t\t\t<div class=\"about-box\">\n\t\t\t\t<h2 class=\"subtitle\" id=\"hobby\"><img src=\"/images/svg/hobby.svg\" alt=\"Хобби\" class=\"icon-main-page\">Хобби</h2>\n\t\t\t\t<p>Люблю современные технологии и животных. Занимаюсь волонтерской деятельностью</p>\n\t\t\t</div>\n\t\t\t<div class=\"about-box\">\n\t\t\t\t<h2 class=\"subtitle\" id=\"contacts\"><img src=\"/images/svg/telephone.svg\" alt=\"Контакты\" class=\"icon-main-page\">Контакты</h2>\n\t\t\t\t<p>Телефон: <a href=\"tel:+79637160398\" class=\"link\">+79637160398</a></p>\n\t\t\t\t<p>Почта: <a href=\"mailto: oleg.latyshev.98@mail.ru\" class=\"link\">oleg.latyshev.98@mail.ru</a></p>\n\t\t\t</div>\n\t\t</section>\n\t</main>\n\t<footer>\n\t\t\n\t</footer>\n</body>\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision d4b33f091dc764d5e9af1e6ff3678b153f41adcb)
++++ b/index.html	(date 1666262055700)
+@@ -3,7 +3,7 @@
+ <head>
+ 	<meta charset="utf-8">	
+ 	<link rel="stylesheet" href="css/styles.css">
+-	<title>Сайт-визитка</title>
++	<title>Сайт-визитка - test</title>
+ </head>
+ <body>
+ 	<header>
